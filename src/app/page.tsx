@@ -61,7 +61,7 @@ export default function Page() {
                         className="bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-opacity-90 transition flex items-center gap-2"
                       >
                         <Image
-                          src="/cuties-live-web/app-store.png"
+                          src="/cuties-live-web/app-store.webp"
                           alt="Apple Logo"
                           width={30}
                           height={30}
@@ -84,7 +84,7 @@ export default function Page() {
                   </div>
                   <div className="md:w-1/2">
                     <Image
-                      src="/cuties-live-web/app-preview.png"
+                      src="/cuties-live-web/app-preview.webp"
                       alt="Mobile app preview"
                       width={300}
                       height={600}
