@@ -1,11 +1,8 @@
 "use client";
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import { useTheme } from "@/hooks/useTheme";
+import Layout from "@/components/layout";
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "@/components/layout";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -27,8 +24,6 @@ const jsonLd = {
 };
 
 export default function Page() {
-  const { theme, toggleTheme } = useTheme();
-
   return (
     <Layout>
       <script
