@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -22,9 +22,8 @@ export default function Header({ toggleTheme }: { toggleTheme: () => void }) {
         <h1 className="text-2xl font-bold">Cuties Live</h1>
         <nav className="hidden md:flex space-x-4">
           {links.map((link) => (
-            <>
+            <Fragment key={link.href}>
               <Link
-                key={link.href}
                 href={link.href}
                 className={`hover:text-primary transition-colors relative ${
                   activePath === link.href
@@ -34,7 +33,7 @@ export default function Header({ toggleTheme }: { toggleTheme: () => void }) {
               >
                 {link.label}
               </Link>
-            </>
+            </Fragment>
           ))}
         </nav>
         <div className="flex items-center space-x-2">

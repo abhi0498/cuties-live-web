@@ -39,9 +39,10 @@ export default function AboutUs() {
                 Our Mission
               </h2>
               <p className="text-lg mb-8 text-center">
-                We believe in creating genuine connections in today's digital
-                world. Our platform enables meaningful interactions between
-                people across the globe through high-quality video calls.
+                We believe in creating genuine connections in today&apos;s
+                digital world. Our platform enables meaningful interactions
+                between people across the globe through high-quality video
+                calls.
               </p>
             </div>
           </section>
