@@ -82,6 +82,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  verification: {
+    google: "Cb0ZCJdTbQY5EJ4x1A5unlrl7Y8-gOLWegM-wEMnrNE",
+  },
 };
 
 export default function RootLayout({
@@ -96,6 +99,10 @@ export default function RootLayout({
           rel="icon"
           type="image/x-icon"
           href="/cuties-live-web/favicon.ico"
+        />
+        <meta
+          name="google-site-verification"
+          content="Cb0ZCJdTbQY5EJ4x1A5unlrl7Y8-gOLWegM-wEMnrNE"
         />
       </head>
       <body
