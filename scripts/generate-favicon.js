@@ -19,4 +19,4 @@ ctx.fill();
 const buffer = canvas.toBuffer("image/x-icon");
 
 // Save to file
-fs.writeFileSync("public/cuties-live/favicon.ico", buffer);
+fs.writeFileSync("public/cuties-live-web/favicon.ico", buffer);

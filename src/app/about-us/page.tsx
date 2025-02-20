@@ -127,7 +127,7 @@ export default function AboutUs() {
               </p>
               <div className="flex gap-4 justify-center items-center">
                 <Image
-                  src="/cuties-live/app-store-badge.png"
+                  src="/cuties-live-web/app-store-badge.png"
                   alt="Download on App Store"
                   style={{ width: "150px", height: "50px" }}
                   width={200}
@@ -135,7 +135,7 @@ export default function AboutUs() {
                   className="cursor-pointer hover:opacity-90 transition"
                 />
                 <Image
-                  src="/cuties-live/google-play-badge.png"
+                  src="/cuties-live-web/google-play-badge.png"
                   alt="Get it on Google Play"
                   style={{ width: "180px", height: "70px" }}
                   width={200}

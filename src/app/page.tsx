@@ -61,7 +61,7 @@ export default function Page() {
                         className="bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-opacity-90 transition flex items-center gap-2"
                       >
                         <Image
-                          src="/cuties-live/app-store.png"
+                          src="/cuties-live-web/app-store.png"
                           alt="Apple Logo"
                           width={30}
                           height={30}
@@ -73,7 +73,7 @@ export default function Page() {
                         className="bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-opacity-90 transition flex items-center gap-2"
                       >
                         <Image
-                          src="/cuties-live/google-play.svg"
+                          src="/cuties-live-web/google-play.svg"
                           alt="Google Play Logo"
                           width={30}
                           height={30}
@@ -84,7 +84,7 @@ export default function Page() {
                   </div>
                   <div className="md:w-1/2">
                     <Image
-                      src="/cuties-live/app-preview.png"
+                      src="/cuties-live-web/app-preview.png"
                       alt="Mobile app preview"
                       width={300}
                       height={600}
@@ -133,7 +133,7 @@ export default function Page() {
                 </p>
                 <div className="flex gap-4 justify-center items-center">
                   <Image
-                    src="/cuties-live/app-store-badge.png"
+                    src="/cuties-live-web/app-store-badge.png"
                     alt="Download on App Store"
                     style={{ width: "150px", height: "50px" }}
                     width={200}
@@ -141,7 +141,7 @@ export default function Page() {
                     className="cursor-pointer hover:opacity-90 transition"
                   />
                   <Image
-                    src="/cuties-live/google-play-badge.png"
+                    src="/cuties-live-web/google-play-badge.png"
                     alt="Get it on Google Play"
                     style={{ width: "180px", height: "70px" }}
                     width={200}

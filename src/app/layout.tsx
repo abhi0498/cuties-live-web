@@ -23,11 +23,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cuties Live - Video Chat App",
     description: "Connect with amazing people through live video calls",
-    url: "https://abhi0498.github.io/cuties-live/",
+    url: "https://abhi0498.github.io/cuties-live-web/",
     siteName: "Cuties Live",
     images: [
       {
-        url: "/cuties-live/og-image.jpg", // Make sure to add this image
+        url: "/cuties-live-web/og-image.jpg", // Make sure to add this image
         width: 1200,
         height: 630,
         alt: "Cuties Live Preview",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cuties Live - Video Chat App",
     description: "Connect with amazing people through live video calls",
-    images: ["/cuties-live/twitter-image.jpg"], // Make sure to add this image
+    images: ["/cuties-live-web/twitter-image.jpg"], // Make sure to add this image
   },
   robots: {
     index: true,
@@ -53,24 +53,24 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  manifest: "/cuties-live/manifest.json", // We'll create this
+  manifest: "/cuties-live-web/manifest.json", // We'll create this
   icons: {
     icon: [
-      { url: "/cuties-live/favicon.ico", sizes: "any" },
+      { url: "/cuties-live-web/favicon.ico", sizes: "any" },
       {
-        url: "/cuties-live/android-chrome-192x192.png",
+        url: "/cuties-live-web/android-chrome-192x192.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        url: "/cuties-live/android-chrome-512x512.png",
+        url: "/cuties-live-web/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png",
       },
     ],
     apple: [
       {
-        url: "/cuties-live/apple-touch-icon.png",
+        url: "/cuties-live-web/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png",
       },
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     other: [
       {
         rel: "apple-touch-icon-precomposed",
-        url: "/cuties-live/apple-touch-icon-precomposed.png",
+        url: "/cuties-live-web/apple-touch-icon-precomposed.png",
       },
     ],
   },
@@ -92,7 +92,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/cuties-live/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="/cuties-live-web/favicon.ico"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
