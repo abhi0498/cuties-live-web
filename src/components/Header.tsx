@@ -3,6 +3,7 @@ import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const links = [
   { href: "/", label: "Home" },
@@ -19,7 +20,15 @@ export default function Header({ toggleTheme }: { toggleTheme: () => void }) {
   return (
     <header className="sticky top-0 z-50 bg-background border-b">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Cuties Live</h1>
+        <div className="flex items-center space-x-2">
+          <Image
+            src="/cuties-live-web/icon.png"
+            alt="Cuties Live"
+            width={32}
+            height={32}
+          />
+          <h1 className="text-2xl font-bold">Cuties Live</h1>
+        </div>
         <nav className="hidden md:flex space-x-4">
           {links.map((link) => (
             <Fragment key={link.href}>
